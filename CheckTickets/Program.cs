@@ -20,8 +20,8 @@ namespace CheckTickets
       {
         string emailMessage = msg;
         MailMessage mailMsg = new MailMessage();
-        mailMsg.From = new MailAddress("artem.fursenko@gmail.com");
-        mailMsg.To.Add(new MailAddress("artem.fursenko@gmail.com"));
+        mailMsg.From = new MailAddress("@gmail.com");
+        mailMsg.To.Add(new MailAddress("@gmail.com"));
         mailMsg.Subject = "uz.gov.ua :: " + subj;
         mailMsg.Body = string.Format(emailMessage);
         mailMsg.IsBodyHtml = false;
